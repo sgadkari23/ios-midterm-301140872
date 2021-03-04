@@ -38,7 +38,8 @@ class GameScene: SKScene
         addChild(plane!)
         
         // add 3 clouds to the scene
-        for index in 0...2
+        // changed the number of clouds to 2 by changing the for loop
+        for index in 0...1
         {
             let cloud: Cloud = Cloud()
             clouds.append(cloud)
