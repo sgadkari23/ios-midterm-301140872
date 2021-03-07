@@ -1,3 +1,12 @@
+/**
+ 
+ File name: Cloud.swift
+ Author name: Supriya Gadkari
+ Student ID: 301140872
+ Description: cloud coding for playing in landscape modes
+
+**/
+
 import SpriteKit
 import GameplayKit
 
@@ -26,6 +35,7 @@ class Cloud: GameObject
         }
     }
     
+    // changed reset coordiantes for landscape mode
     override func Reset()
     {
         dx = CGFloat((randomSource?.nextUniform())! * 5.0) + 5.0

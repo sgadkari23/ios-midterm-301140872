@@ -1,3 +1,12 @@
+/**
+ 
+ File name: Island.swift
+ Author name: Supriya Gadkari
+ Student ID: 301140872
+ Description:Game object(Island) coding
+
+**/
+
 import SpriteKit
 import GameplayKit
 
@@ -20,22 +29,25 @@ class Island: GameObject
     // changed the x coordinate of island to start it from right
     override func CheckBounds()
     {
-        if(position.x <= -730)
-        {
-            Reset()
-        }
+            if(position.x <= -730)
+            {
+                Reset()
+            }
+       
     }
+    
+     
     
     override func Reset()
     {
-        position.x = 730
+       position.x = 730
         // get a pseudo-random number from -313 to 313 =
         let randomX:Int = (randomSource?.nextInt(upperBound: 626))! - 313
         position.x = CGFloat(randomX)
         isColliding = false
     }
     
-    // initialization
+    // initialization for landscape mode
     override func Start()
     {
         zPosition = 1
@@ -52,5 +64,6 @@ class Island: GameObject
     func Move()
     {
         position.x -= dx!
+        
     }
 }

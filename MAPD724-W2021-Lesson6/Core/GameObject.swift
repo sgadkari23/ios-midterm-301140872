@@ -1,3 +1,12 @@
+/**
+ 
+ File name: GameObject.swift
+ Author name: Supriya Gadkari
+ Student ID: 301140872
+ Description:  Initilization Game objects
+
+**/
+
 import SpriteKit
 import GameplayKit
 

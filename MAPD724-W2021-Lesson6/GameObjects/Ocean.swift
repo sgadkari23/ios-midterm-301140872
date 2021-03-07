@@ -1,3 +1,12 @@
+/**
+ 
+ File name: Ocean.swift
+ Author name: Supriya Gadkari
+ Student ID: 301140872
+ Description: Ocean png reset for lanscape mode
+
+**/
+
 import SpriteKit
 import GameplayKit
 

@@ -1,3 +1,12 @@
+/**
+ 
+ File name: CollisionManager.swift
+ Author name: Supriya Gadkari
+ Student ID: 301140872
+ Description: Score calculation of game on every collision of plane
+
+**/
+
 import SpriteKit
 import GameplayKit
 

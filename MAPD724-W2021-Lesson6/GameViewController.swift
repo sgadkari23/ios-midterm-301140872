@@ -1,3 +1,12 @@
+/**
+ 
+ File name: GameViewController.swift
+ Author name: Supriya Gadkari
+ Student ID: 301140872
+ Description:Ocean png reset for lanscape mode
+
+**/
+
 import UIKit
 import SpriteKit
 import GameplayKit
@@ -62,5 +71,7 @@ class GameViewController: UIViewController
     {
         LivesLabel.text = "Lives: \(ScoreManager.Lives)"
     }
+    
+
     
 }

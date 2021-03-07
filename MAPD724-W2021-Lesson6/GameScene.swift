@@ -1,3 +1,11 @@
+/**
+ 
+ File name: Game Scene
+ Author name: Supriya Gadkari
+ Student ID: 301140872
+ Description: Game scene object coding
+
+**/
 import UIKit
 import AVFoundation
 import SpriteKit
@@ -65,19 +73,19 @@ class GameScene: SKScene
         
     }
     
-    
+    // chanaged axed for touchup for landscape mode
     func touchDown(atPoint pos : CGPoint)
     {
         plane?.TouchMove(newPos: CGPoint(x: -420, y: pos.y))
     }
-    
+    // chanaged axed for touchup for landscape mode
     func touchMoved(toPoint pos : CGPoint)
     {
         plane?.TouchMove(newPos: CGPoint(x: -420, y: pos.y))
 
     }
     
-    // chanaged axed for touchup for plane
+    // chanaged axed for touchup for landscape mode
     func touchUp(atPoint pos : CGPoint)
     {
         plane?.TouchMove(newPos: CGPoint(x: -420, y: pos.y))
